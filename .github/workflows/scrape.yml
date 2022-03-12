@@ -14,7 +14,7 @@ jobs:
         with:
           python-version: '3.9'
       - name: Install all necessary packages
-        run: pip install requests beautifulsoup4 pandas os.path
+        run: pip install requests beautifulsoup4 pandas
       - name: Run the scraping script
         run: python clarkesworld.py
       - name: Commit and push if content changed
